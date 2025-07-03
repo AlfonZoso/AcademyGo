@@ -7,7 +7,7 @@ def crear_base_si_no_existe():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="tu_contraseña"  # Cambia por la tuya
+        password="TuContraseñaSegura"  # Cambia por la tuya
     )
     cursor = conn.cursor()
     cursor.execute(

@@ -5,7 +5,7 @@ def conectar():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="tu_contraseña",  # Cambia por la tuya
+        password="TuContraseñaSegura",  # Cambia por la tuya
         database="academia"
     )
 
